@@ -1,10 +1,30 @@
 {
   "name": "biome-plugin-prefer-arrow-function",
   "version": "0.1.0",
-  "private": true,
   "description": "Biome GritQL plugin to prefer arrow functions over function declarations",
   "author": "Penguin <say8425@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/say8425/biome-plugin-prefer-arrow-function.git"
+  },
+  "homepage": "https://github.com/say8425/biome-plugin-prefer-arrow-function#readme",
+  "bugs": {
+    "url": "https://github.com/say8425/biome-plugin-prefer-arrow-function/issues"
+  },
+  "keywords": [
+    "biome",
+    "biome-plugin",
+    "gritql",
+    "arrow-function",
+    "linter",
+    "eslint-alternative"
+  ],
+  "files": [
+    "prefer-arrow-function.grit",
+    "LICENSE",
+    "README.md"
+  ],
   "devDependencies": {
     "@biomejs/biome": "^2.0.0"
   }
