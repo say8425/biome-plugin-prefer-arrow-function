@@ -1,0 +1,14 @@
+or {
+    `function $name($params) { $body }` where {
+        register_diagnostic(
+            span = $name,
+            message = "Prefer arrow function over function declaration."
+        )
+    },
+    `export default function $name($params) { $body }` where {
+        register_diagnostic(
+            span = $name,
+            message = "Prefer arrow function over function declaration."
+        )
+    }
+}
