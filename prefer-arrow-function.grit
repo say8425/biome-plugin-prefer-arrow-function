@@ -1,3 +1,5 @@
+language js;
+
 or {
     `function $name($params) { $body }` where {
         register_diagnostic(
