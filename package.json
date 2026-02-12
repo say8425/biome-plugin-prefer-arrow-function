@@ -1,6 +1,6 @@
 {
   "name": "biome-plugin-prefer-arrow-function",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Biome GritQL plugin to prefer arrow functions over function declarations",
   "author": "Penguin <say8425@gmail.com>",
   "license": "MIT",
